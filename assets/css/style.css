@@ -1,0 +1,82 @@
+/* 页面初始化 */
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    cursor: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dec470b0-fed6-46e5-be53-ec85fadc01be/b107da04-1c69-4eb0-ac3f-39ce4bf7f237.cur), auto;
+}
+
+body {
+    cursor: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dec470b0-fed6-46e5-be53-ec85fadc01be/696215a2-7a15-4bcc-a69a-e45373ab4ba8.cur), auto;
+}
+
+.xf_slide {
+    cursor: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dec470b0-fed6-46e5-be53-ec85fadc01be/b2ed5653-f3fa-4dfc-887f-b6f94d3b85f4.cur), auto;
+}
+
+input[text] {
+    cursor: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dec470b0-fed6-46e5-be53-ec85fadc01be/1a461f92-a0cc-4079-8699-deca4f8e0223.cur), auto;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: skyblue;
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #eee;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}

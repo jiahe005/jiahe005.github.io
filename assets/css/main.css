@@ -1,0 +1,231 @@
+/* 版心 */
+.core {
+    margin: 0 auto;
+    max-width: 350px;
+    /* background-color: antiquewhite; */
+}
+
+/* 头部 */
+.hd {
+    margin-top: 15px;
+    text-align: center;
+    color: #4f4f4f;
+}
+
+.hd .time_econd {
+    font-size: 5em;
+}
+
+.hd h3 {
+    margin-top: -5px;
+}
+
+/* 样式 */
+.xf_style {
+    background-color: #eee;
+    border-radius: 15px;
+    box-shadow: 3px 2px 6px 0px #00000026, -1px -2px 6px 2px #ffffff96;
+}
+
+/* 百度搜索框 */
+.xf_baidu {
+    margin: 20px auto;
+    height: 50px;
+}
+
+.xf_baidu i {
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    background: url(../images/sprite.png) no-repeat -104px -28px;
+}
+
+.xf_baidu input {
+    float: left;
+    font-size: 1.2em;
+    color: #3f3f3f;
+    text-indent: 1em;
+    border: 0;
+    background-color: #eee;
+    height: 50px;
+}
+
+.xf_baidu input[type=submit] {
+    display: none;
+}
+
+.main {
+    margin-top: 0;
+    /* height: 500px; */
+}
+
+/* 头像 */
+
+.tx {
+    padding-top: 5px;
+}
+
+.tx img {
+    width: 25%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10em;
+    box-shadow: 0 0 0 5px #fff, 4px 3px 5px 3px #3535353d;
+}
+
+.tx img:hover {
+    -webkit-animation: round_animate 5s linear infinite;
+    animation: round_animate 1s linear infinite;
+}
+
+@keyframes round_animate {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+/* 名字 */
+.xf_name {
+    margin-top: 15px;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.xf_name h2 {
+    font-size: 2em;
+}
+
+.xf_name h4 {
+    font-size: 1.5em;
+}
+
+/* 图标 */
+.xf_ico_link {
+    margin-top: 15px;
+}
+
+.xf_ico_link ul {
+    text-align: center;
+}
+
+.xf_ico_link ul li {
+    display: inline-block;
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    background-color: #eee;
+    box-shadow: 3px 2px 6px 0px #00000026, -1px -2px 6px 2px #ffffff96;
+}
+
+.xf_ico_link ul li:hover {
+    box-shadow: inset 1px 1px 1px 1px #0000001a, inset -1px -1px 2px #fff;
+}
+
+/* 一名专业的美工，怎么可能不会做精灵图呢（要是有机会这辈子我都不会做美工） */
+.xf_ico_link ul li:nth-of-type(1) {
+    background: url(../images/sprite.png) no-repeat 2px -26px;
+}
+
+.xf_ico_link ul li:nth-of-type(2) {
+    margin: 0 18px;
+    background: url(../images/sprite.png) no-repeat -48px -25px;
+}
+
+.xf_ico_link ul li:nth-of-type(3) {
+    background: url(../images/sprite.png) no-repeat 2px -75px;
+}
+
+.xf_ico_link ul li:nth-of-type(4) {
+    margin-left: 18px;
+    background: url(../images/sprite.png) no-repeat -48px -74px;
+}
+
+/* 介绍 */
+.xf_introduce {
+    overflow: auto;
+    margin: 25px auto 5px auto;
+    width: 82%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 1px 1px #0000001a, inset -1px -1px 2px #fff;
+}
+
+.xf_introduce p {
+    text-indent: 2em;
+    font-size: 1.4em;
+    line-height: 25px;
+}
+
+/* 滑动模块 */
+.xf_slide {
+    margin-top: -5px;
+    font-family: "iconfont" !important;
+    font-size: 2.2em;
+    color: #3f3f3f;
+    text-align: center;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: color .5s;
+}
+
+.xf_slide:hover {
+    color: rgb(119, 119, 119);
+}
+
+.xf_slide:active {
+    color: skyblue;
+}
+
+.xf_website {
+    display: none;
+}
+
+.xf_website {
+    margin-top: -5px;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.xf_website a {
+    display: inline-block;
+    margin: 8px 15px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 10px 12px;
+    width: 30%;
+    box-shadow: 3px 2px 6px 0px #00000026, -1px -2px 6px 2px #ffffff96;
+    transition: color 1s;
+}
+
+.xf_website a:hover {
+    box-shadow: inset 1px 1px 1px 1px #0000001a, inset -1px -1px 2px #fff;
+}
+
+/* 底部版权 */
+.copy {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    color: #000;
+}
+
+.copy p a {
+    transition: all .5s;
+}
+
+.copy p a:hover {
+    text-shadow: 2px 1px 0 #fff;
+}
+
+.copy p {
+    font-size: 1.32em;
+}
+.copy p:nth-of-type(2) a{
+    border-bottom: 1px solid #666;
+}
+.copy p:nth-of-type(2) a:hover {
+    border-bottom: 1px solid skyblue;
+}

@@ -1,0 +1,27 @@
+/* 字体文件 */
+@font-face {
+    font-family: font-DDR;
+    src: url(../font/DottedSongtiDiamondRegular.ttf);
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf?t=1645435775420') format('truetype');
+}
+
+.hd h1 {
+    font-family: font-DDR !important;
+}
+
+.hd h3 {
+    font-family: font-tingshan !important;
+}
+
+.main .xf_name h1,
+.main .xf_name h2,
+.main .xf_name h4,
+.hd .xf_baidu input,
+.xf_website,
+.main .xf_introduce p {
+    font-family: font-youyuan !important;
+}
