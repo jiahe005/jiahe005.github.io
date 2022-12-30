@@ -40,7 +40,7 @@ var binft = function (r) {
             setTimeout(i, d)
     }
     var l = "",
-        o = ["谁无暴风劲雨时，","但求与苍天","必有出头之日。",].map(function (r) {
+        o = ["你好，","我叫嘉何","你叫什么？",].map(function (r) {
             return r + "."
         }),
         a = 2,
